@@ -222,6 +222,7 @@ body{
     padding: 5px;
     border-radius: 10px;
     text-align: center;
+
 }
 #addtocart{
     width: 300px;
@@ -434,5 +435,8 @@ body{
     .disc{
         font-size: 16px;
         margin-top: 43px;
+    }
+    .save{
+        margin-top: 38px;
     }
 }

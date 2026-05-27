@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product cart</title>
+    <link rel="stylesheet" href="product.css">
+</head>
+<body>
+    <section class="cart">
+        
+            <div class="discount">
+                20% OFF
+            </div>
+            <div class="limit">
+                LIMITED
+            </div>
+            <div class="imagesec">
+                <img src="images/productimg.jpg">
+            </div>
+            <div class="colorofproduct">
+                <button id="black" onclick="color1()"></button>
+                <button id="white" onclick="color2()"></button>
+                <button id="blue" onclick="color3()"></button>
+            </div>
+    </section>
+    <section class="details">
+        <div class="topbardetails">
+            <div class="audiobar">
+                🎧 Audio
+            </div>
+            <div class="stock">
+                🟢In stock
+            </div>
+        </div>
+        <div class="heading">
+            <h1>Sony WH-1000XM5</h1>
+        </div>
+        <div class="subheading">
+            Wireless Noise Cancelling Headphones
+        </div>
+        <div class="rating">
+            <div class="star">
+            ⭐⭐⭐⭐⭐ 
+            </div>
+            <div class="rate">
+                4.8
+            </div> <div class="review">
+                (2444 reviews)
+            </div> 
+            </div>
+        <div class="para">
+            <p>Industry-leading noise cancellation powered by two processors and eight microphones. 30-hour battery life, ultra-comfortable design, and multipoint Bluetooth for seamless device switching.</p>
+        </div>
+        <div class="detailsofproduct">
+            <div>⚡30h Battery</div>
+            <div>🔐IPX4 Rated</div>
+        </div>
+        <div class="return">
+           ↩️ 30-day Returns
+        </div>
+        <div class="price">
+            <div class="cost">
+                $279
+            </div>
+            <div class="disc">
+                $349
+            </div>
+            <div class="save">
+                Save $70
+            </div>
+       </div>
+       <div id="colortype">
+        Color:<span id="colorordered"> Midnight Black</span>
+       </div>
+       <div class="buy">
+            <div class="quantity-box">
+                    <button onclick="decrease()">-</button>
+                    <span id="count">1</span>
+                    <button onclick="increase()">+</button>
+            </div>
+            <div style="display: flex;gap: 5px;">
+                    <p class="subtotal">
+                    Subtotal: <p class="money">$</p> <span id="subprice">279</span>
+                    </p>
+            </div>
+        </div>
+            <div>
+                <button input type="submit" id="addtocart">
+                    🛒 Add to cart
+                </button>   
+            </div>
+       
+    </section>
+    <script src="product.js"></script>
+</body>
+</html>

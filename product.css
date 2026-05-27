@@ -164,6 +164,7 @@ body{
     display: flex;
     gap: 10px;
     margin-left: 25px;
+    align-items: center;
 }
 .detailsofproduct div{
     width: 110px;
@@ -182,7 +183,7 @@ body{
     margin-top: 15px;
     height: 25px;
     background-color: rgb(234, 244, 248);
-    text-align: center;
+   align-items: center;
     padding: 5px;
     border-radius: 20px;
     color:blueviolet;
@@ -425,9 +426,8 @@ body{
     .quantity-box button{
         font-size: 20px;
     }
-    .return{
-        width:85%;
-    }
+    
+    
     .cost{
         font-size: 22px;
         margin-left: 0px;
@@ -435,5 +435,6 @@ body{
 
     .disc{
         font-size: 16px;
+        margin-top: 43px;
     }
 }
